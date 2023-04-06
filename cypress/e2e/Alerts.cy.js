@@ -29,7 +29,7 @@ it.only("checking prompt widow ",()=>{
     cy.get("button[onclick='jsPrompt()']").click()
     cy.get("#result").should('have.text','You entered: welcome')
 })*/
-//authenticated alert
+//new line comments
 it.only("checking authenticating window ",()=>{
 cy.visit("https://the-internet.herokuapp.com/basic_auth",{auth:
                                                            {
@@ -38,6 +38,7 @@ cy.visit("https://the-internet.herokuapp.com/basic_auth",{auth:
                                                            }
                                                           });
 cy.get("div[class='example'] p").should('have.contain','Congratulations!')
+//congratulations tanish
 
 })
 
