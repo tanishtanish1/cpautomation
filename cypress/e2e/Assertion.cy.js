@@ -15,7 +15,10 @@ cy.get("input[placeholder='Username']").type('Admin')
 cy.get("input[placeholder='Username']").should('have.value','Admin')
 cy.get("input[placeholder='Password']").type('Admin123')
 cy.get("input[placeholder='Password']").should('have.value','Admin123')
-cy.get("tanish").click()
+//cy.get("tanish").click()
+//cy.get("Eshaan").click()
+//cy.get("srinivas").click()
+
 
 
 })
